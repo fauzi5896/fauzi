@@ -43,6 +43,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/hitung"
         android:text="Hitung"
+        android:onClick="klikHasil"
         android:padding="@dimen/activity_horizontal_margin"/>
 
 </LinearLayout>

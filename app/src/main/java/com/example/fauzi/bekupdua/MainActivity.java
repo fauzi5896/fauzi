@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnJumlah, btnHitung;
     TextView input1, input2, hasil;
+    private String Cek1 = "";
+    private String Cek2 = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,14 @@ public class MainActivity extends AppCompatActivity {
         hasil = (TextView) findViewById(R.id.hasil);
 
         btnHitung = (Button) findViewById(R.id.hitung);
+
+    }
+
+    public void klikHasil (View V){
+        Cek1 = input1.getText().toString();
+        Cek2= input2.getText().toString();
+
+
 
     }
     //buat di activity_main2
